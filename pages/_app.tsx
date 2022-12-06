@@ -6,13 +6,6 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <div>
       <Component {...pageProps} />
-      <InputField
-        id='email'
-        placeholder={'dnasldkjna'}
-        label={'djalisda'}
-        type={'text'}
-        required={false}
-      ></InputField>
     </div>
   );
 }
